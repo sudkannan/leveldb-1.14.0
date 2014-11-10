@@ -1,0 +1,14 @@
+!SESSION 2014-04-17 11:45:23.303 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 4 77 2014-04-17 11:46:53.084
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2014-04-17 11:46:53.084
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2014-04-17 11:46:53.084
+!MESSAGE /home/sudarsun/apps/leveldb-1.14.0 overlaps the workspace location: /home/sudarsun/apps/leveldb-1.14.0/leveldb
