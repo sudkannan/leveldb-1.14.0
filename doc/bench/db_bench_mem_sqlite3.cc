@@ -450,7 +450,7 @@ class Benchmark {
     status = sqlite3_open(file_name, &db_);
 #else
     status = sqlite3_open(file_name, &db_);
-    //status = sqlite3_open(":memory:", &db_);
+    //status = sqlite3_open("file::memory:", &db_);
 #endif
     if (status) {
       fprintf(stderr, "open error: %s\n", sqlite3_errmsg(db_));
